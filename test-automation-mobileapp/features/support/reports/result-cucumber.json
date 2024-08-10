@@ -1,0 +1,239 @@
+[
+  {
+    "uri": "features/scenarios/test/android/dev/1_home_android.feature",
+    "id": "colornote---automation-test-mobile-app",
+    "keyword": "Feature",
+    "name": "colornote - automation test mobile app",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@android",
+        "line": 1
+      },
+      {
+        "name": "@home",
+        "line": 1
+      },
+      {
+        "name": "@regression",
+        "line": 1
+      },
+      {
+        "name": "@sanity",
+        "line": 1
+      },
+      {
+        "name": "@dev",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "colornote---automation-test-mobile-app;user-access-app-colornote-to-write-notes",
+        "keyword": "Scenario",
+        "name": "User access app Colornote to write notes",
+        "description": "",
+        "line": 5,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@android",
+            "line": 1
+          },
+          {
+            "name": "@home",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 1
+          },
+          {
+            "name": "@dev",
+            "line": 1
+          },
+          {
+            "name": "@test",
+            "line": 4
+          }
+        ],
+        "before": [
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000
+            }
+          },
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 975000
+            }
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "Given ",
+            "name": "user access app Colornote",
+            "line": 6,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5400797000
+            }
+          },
+          {
+            "keyword": "When ",
+            "name": "user click next beginning screen",
+            "line": 7,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 719009000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user sees permission page",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 163280000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click next permission request",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81590000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click allow permission",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1251502000
+            }
+          },
+          {
+            "keyword": "Then ",
+            "name": "system show tutorial feature",
+            "line": 11,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 870737000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click skip tutorial",
+            "line": 12,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66375000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user sees homepage colornote",
+            "line": 13,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:29"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1291779000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user click Add note",
+            "line": 14,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2043682000
+            }
+          },
+          {
+            "keyword": "And ",
+            "name": "user input \"Halo, I'm Fahmi\"",
+            "line": 15,
+            "match": {
+              "location": "features/step_definitions/android/dev/1_home_android_steps.rb:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 813754000
+            }
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1346656000
+            }
+          },
+          {
+            "match": {
+              "location": "capybara-3.18.0/lib/capybara/cucumber.rb:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 45000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

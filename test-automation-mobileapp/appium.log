@@ -1,0 +1,7 @@
+2023-08-07 08:33:44:003 [Appium] Welcome to Appium v1.22.1
+2023-08-07 08:33:44:004 [Appium] Non-default server args:
+2023-08-07 08:33:44:004 [Appium]   allowCors: true
+2023-08-07 08:33:44:004 [Appium]   address: localhost
+2023-08-07 08:33:44:004 [Appium]   logFile: appium.log
+2023-08-07 08:33:44:004 [Appium]   relaxedSecurityEnabled: true
+2023-08-07 08:33:44:015 [HTTP] Could not start REST http interface listener. The requested port may already be in use. Please make sure there is no other instance of this server running already.
